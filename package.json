@@ -1,0 +1,27 @@
+{
+  "name": "musical-palm-tree",
+  "engines": {
+      "node": 10.16.0,
+  },
+  "version": "1.0.0",
+  "description": "Code Along for Heroku Deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookelkennison/musical-palm-tree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brookelkennison/musical-palm-tree/issues"
+  },
+  "homepage": "https://github.com/brookelkennison/musical-palm-tree#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
